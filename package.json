@@ -1,6 +1,6 @@
 {
   "name": "tslint-loader",
-  "version": "2.1.5",
+  "version": "2.2.0-dev.1",
   "description": "tslint loader for webpack",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wbuchwalter/tslint-loader"
+    "url": "https://github.com/hackur/tslint-loader"
   },
   "keywords": [
     "tslint",
@@ -20,17 +20,17 @@
   "author": "William Buchwalter",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wbuchwalter/tslint-loader/issues"
+    "url": "https://github.com/hackur/tslint-loader/issues"
   },
-  "homepage": "https://github.com/wbuchwalter/tslint-loader",
+  "homepage": "https://github.com/hackur/tslint-loader",
   "peerDependencies": {
-    "tslint": "^4.0.0"
+    "tslint": "^4.0.0-dev.1"
   },
   "dependencies": {
-    "loader-utils": "^0.2.7",
+    "loader-utils": "^0.2.16",
     "mkdirp": "^0.5.1",
-    "object-assign": "^4.0.1",
-    "rimraf": "^2.4.4",
-    "strip-json-comments": "^1.0.2"
+    "object-assign": "^4.1.0",
+    "rimraf": "^2.5.4",
+    "strip-json-comments": "^1.0.4"
   }
 }
